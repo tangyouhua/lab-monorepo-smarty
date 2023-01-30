@@ -8,6 +8,12 @@ importers:
     dependencies:
       vue: 3.2.45
 
+  packages/admin:
+    specifiers:
+      vue: ^3.2.45
+    dependencies:
+      vue: 3.2.45
+
   packages/utils:
     specifiers:
       react: ^18.2.0
