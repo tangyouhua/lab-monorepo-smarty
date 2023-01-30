@@ -10,8 +10,10 @@ importers:
 
   packages/admin:
     specifiers:
+      '@smarty-admin/utils': workspace:^1.0.0
       vue: ^3.2.45
     dependencies:
+      '@smarty-admin/utils': link:../utils
       vue: 3.2.45
 
   packages/utils:
